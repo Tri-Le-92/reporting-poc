@@ -13,49 +13,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorViewerAndDesigner.Client
 build_property.RootNamespace = BlazorViewerAndDesigner.Client
-build_property.ProjectDir = C:\works\reporting-samples\BlazorViewerAndDesignerExample\BlazorViewerAndDesigner\Client\
+build_property.ProjectDir = C:\quantalytix\reporting-poc\BlazorViewerAndDesigner\Client\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\works\reporting-samples\BlazorViewerAndDesignerExample\BlazorViewerAndDesigner\Client
+build_property.MSBuildProjectDirectory = C:\quantalytix\reporting-poc\BlazorViewerAndDesigner\Client
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[C:/works/reporting-samples/BlazorViewerAndDesignerExample/BlazorViewerAndDesigner/Client/App.razor]
+[C:/quantalytix/reporting-poc/BlazorViewerAndDesigner/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/reporting-samples/BlazorViewerAndDesignerExample/BlazorViewerAndDesigner/Client/Host.razor]
+[C:/quantalytix/reporting-poc/BlazorViewerAndDesigner/Client/Host.razor]
 build_metadata.AdditionalFiles.TargetPath = SG9zdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/reporting-samples/BlazorViewerAndDesignerExample/BlazorViewerAndDesigner/Client/Pages/Designer.razor]
+[C:/quantalytix/reporting-poc/BlazorViewerAndDesigner/Client/Pages/Designer.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVzaWduZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/reporting-samples/BlazorViewerAndDesignerExample/BlazorViewerAndDesigner/Client/Pages/FetchData.razor]
+[C:/quantalytix/reporting-poc/BlazorViewerAndDesigner/Client/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/reporting-samples/BlazorViewerAndDesignerExample/BlazorViewerAndDesigner/Client/Pages/Viewer.razor]
+[C:/quantalytix/reporting-poc/BlazorViewerAndDesigner/Client/Pages/Viewer.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld2VyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/reporting-samples/BlazorViewerAndDesignerExample/BlazorViewerAndDesigner/Client/Shared/SurveyPrompt.razor]
+[C:/quantalytix/reporting-poc/BlazorViewerAndDesigner/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/reporting-samples/BlazorViewerAndDesignerExample/BlazorViewerAndDesigner/Client/_Imports.razor]
+[C:/quantalytix/reporting-poc/BlazorViewerAndDesigner/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/works/reporting-samples/BlazorViewerAndDesignerExample/BlazorViewerAndDesigner/Client/Shared/MainLayout.razor]
+[C:/quantalytix/reporting-poc/BlazorViewerAndDesigner/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-fl5hgjk0fp
 
-[C:/works/reporting-samples/BlazorViewerAndDesignerExample/BlazorViewerAndDesigner/Client/Shared/NavMenu.razor]
+[C:/quantalytix/reporting-poc/BlazorViewerAndDesigner/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-bkd77ryyi1

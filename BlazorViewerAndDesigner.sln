@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorViewerAndDesigner.Cli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorViewerAndDesigner.Shared", "BlazorViewerAndDesigner\Shared\BlazorViewerAndDesigner.Shared.csproj", "{B74AFF27-AD7E-4375-A81C-71953747586F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarObjects", "CarObjects\CarObjects.csproj", "{924BB942-833D-4CB7-9465-FFDD2650B9C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductObjects", "ProductObjects\ProductObjects.csproj", "{F9063C0D-C952-4751-969B-5828DC5EEE0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{B74AFF27-AD7E-4375-A81C-71953747586F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B74AFF27-AD7E-4375-A81C-71953747586F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B74AFF27-AD7E-4375-A81C-71953747586F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{924BB942-833D-4CB7-9465-FFDD2650B9C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924BB942-833D-4CB7-9465-FFDD2650B9C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924BB942-833D-4CB7-9465-FFDD2650B9C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924BB942-833D-4CB7-9465-FFDD2650B9C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9063C0D-C952-4751-969B-5828DC5EEE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9063C0D-C952-4751-969B-5828DC5EEE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9063C0D-C952-4751-969B-5828DC5EEE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9063C0D-C952-4751-969B-5828DC5EEE0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

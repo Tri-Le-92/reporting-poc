@@ -463,13 +463,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.15": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.4": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -2318,13 +2318,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.15": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.4": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -4635,10 +4635,10 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.15": {
-      "sha512": "s4eXlcRGyHeCgFUGQnhq0e/SCHBPp0jOHgMqZg3fQ2OCHJSm1aOUhI6RFWuVIcEb9ig2WgI2kWukk8wu72EbUQ==",
+    "Microsoft.NET.ILLink.Tasks/8.0.8": {
+      "sha512": "P8wR6MUWwYXIjPJuBaZgo5zlI/GWI6QEAo6NyVIbPefa9CCkohYu7dP2rD/mrqnjEqfRHyl+h9VZrDoGpELqYg==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.15",
+      "path": "microsoft.net.illink.tasks/8.0.8",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -4652,7 +4652,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.15.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.8.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -4686,10 +4686,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.4": {
-      "sha512": "SbawDIBdWK+7UTkiIXquadlWAUPxV88+jytBdVsIFzvJXkxGGQKrufO4KPyYdS4shFtXLZyCuCckNt0YN5hZKw==",
+    "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.8": {
+      "sha512": "z2UxqxjssvxlcQ68KZorgQDITdV2u5H6CWOGhs3kiv+qqDtokhDpcK660TUMrX+FTDdRKie0l7EeZEdej26Ycw==",
       "type": "package",
-      "path": "microsoft.net.sdk.webassembly.pack/9.0.4",
+      "path": "microsoft.net.sdk.webassembly.pack/8.0.8",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -4700,7 +4700,6 @@
         "WasmAppHost/BrowserDebugHost.deps.json",
         "WasmAppHost/BrowserDebugHost.dll",
         "WasmAppHost/BrowserDebugHost.runtimeconfig.json",
-        "WasmAppHost/BrowserDebugHost.staticwebassets.endpoints.json",
         "WasmAppHost/BrowserDebugProxy.dll",
         "WasmAppHost/Microsoft.CodeAnalysis.CSharp.Scripting.dll",
         "WasmAppHost/Microsoft.CodeAnalysis.CSharp.dll",
@@ -4713,19 +4712,48 @@
         "WasmAppHost/WasmAppHost.deps.json",
         "WasmAppHost/WasmAppHost.dll",
         "WasmAppHost/WasmAppHost.runtimeconfig.json",
-        "WasmAppHost/WasmAppHost.staticwebassets.endpoints.json",
         "build/Microsoft.NET.Sdk.WebAssembly.Browser.props",
         "build/Microsoft.NET.Sdk.WebAssembly.Browser.targets",
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.props",
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets",
         "build/Wasm.web.config",
-        "build/browser.runtimeconfig.template.json",
-        "microsoft.net.sdk.webassembly.pack.9.0.4.nupkg.sha512",
+        "microsoft.net.sdk.webassembly.pack.8.0.8.nupkg.sha512",
         "microsoft.net.sdk.webassembly.pack.nuspec",
+        "tools/net472/Microsoft.Bcl.AsyncInterfaces.dll",
+        "tools/net472/Microsoft.Build.dll",
+        "tools/net472/Microsoft.IO.Redist.dll",
         "tools/net472/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
+        "tools/net472/Microsoft.NET.StringTools.dll",
         "tools/net472/Microsoft.NET.WebAssembly.Webcil.dll",
-        "tools/net9.0/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
-        "tools/net9.0/Microsoft.NET.WebAssembly.Webcil.dll"
+        "tools/net472/Microsoft.VisualStudio.Setup.Configuration.Interop.dll",
+        "tools/net472/System.Buffers.dll",
+        "tools/net472/System.Collections.Immutable.dll",
+        "tools/net472/System.Configuration.ConfigurationManager.dll",
+        "tools/net472/System.Memory.dll",
+        "tools/net472/System.Numerics.Vectors.dll",
+        "tools/net472/System.Reflection.Metadata.dll",
+        "tools/net472/System.Reflection.MetadataLoadContext.dll",
+        "tools/net472/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net472/System.Security.AccessControl.dll",
+        "tools/net472/System.Security.Permissions.dll",
+        "tools/net472/System.Security.Principal.Windows.dll",
+        "tools/net472/System.Text.Encodings.Web.dll",
+        "tools/net472/System.Text.Json.dll",
+        "tools/net472/System.Threading.Tasks.Dataflow.dll",
+        "tools/net472/System.Threading.Tasks.Extensions.dll",
+        "tools/net472/System.ValueTuple.dll",
+        "tools/net8.0/Microsoft.Build.dll",
+        "tools/net8.0/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
+        "tools/net8.0/Microsoft.NET.StringTools.dll",
+        "tools/net8.0/Microsoft.NET.WebAssembly.Webcil.dll",
+        "tools/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "tools/net8.0/System.Configuration.ConfigurationManager.dll",
+        "tools/net8.0/System.Diagnostics.EventLog.dll",
+        "tools/net8.0/System.Drawing.Common.dll",
+        "tools/net8.0/System.Reflection.MetadataLoadContext.dll",
+        "tools/net8.0/System.Security.Cryptography.ProtectedData.dll",
+        "tools/net8.0/System.Security.Permissions.dll",
+        "tools/net8.0/System.Windows.Extensions.dll"
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.1": {
@@ -8268,41 +8296,45 @@
       "BlazorViewerAndDesigner.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.0",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.15",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.4",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.8",
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.8",
       "Telerik.ReportViewer.BlazorNative.Trial >= 17.0.23.315",
       "Telerik.WebReportDesigner.Blazor.Trial >= 17.0.23.315"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\LAPTOP LENNOVO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Client\\BlazorViewerAndDesigner.Client.csproj",
+      "projectUniqueName": "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Client\\BlazorViewerAndDesigner.Client.csproj",
       "projectName": "BlazorViewerAndDesigner.Client",
-      "projectPath": "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Client\\BlazorViewerAndDesigner.Client.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Client\\obj\\",
+      "projectPath": "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Client\\BlazorViewerAndDesigner.Client.csproj",
+      "packagesPath": "C:\\Users\\LAPTOP LENNOVO\\.nuget\\packages\\",
+      "outputPath": "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\LAPTOP LENNOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.devexpress.com/api/v3/index.json": {},
-        "https://nuget.telerik.com/v3/index.json": {}
+        "https://nuget.devexpress.com/My6hDaKTIxlESlC864CcuerRwcL4Hqx56eU6sf1ydyl9N4hwxJ/api/v3/index.json": {},
+        "https://nuget.telerik.com/v3/index.json": {},
+        "https://pkgs.dev.azure.com/quantalytix/Core/_packaging/core/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj": {
-              "projectPath": "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj"
+            "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj": {
+              "projectPath": "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj"
             }
           }
         }
@@ -8316,8 +8348,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -8335,13 +8366,13 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.15, )",
+            "version": "[8.0.8, )",
             "autoReferenced": true
           },
           "Microsoft.NET.Sdk.WebAssembly.Pack": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.4, )",
+            "version": "[8.0.8, )",
             "autoReferenced": true
           },
           "Telerik.ReportViewer.BlazorNative.Trial": {
@@ -8364,18 +8395,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[8.0.15, 8.0.15]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
@@ -8389,7 +8414,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "BlazorViewerAndDesigner.Client depends on Telerik.ReportViewer.BlazorNative.Trial (>= 17.0.23.315) but Telerik.ReportViewer.BlazorNative.Trial 17.0.23.315 was not found. Telerik.ReportViewer.BlazorNative.Trial 19.0.25.211 was resolved instead.",
+      "message": "BlazorViewerAndDesigner.Client depends on Telerik.ReportViewer.BlazorNative.Trial (>= 17.0.23.315) but Telerik.ReportViewer.BlazorNative.Trial 17.0.23.315 was not found. An approximate best match of Telerik.ReportViewer.BlazorNative.Trial 19.0.25.211 was resolved.",
       "libraryId": "Telerik.ReportViewer.BlazorNative.Trial",
       "targetGraphs": [
         "net8.0",
@@ -8400,7 +8425,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Telerik.ReportViewer.BlazorNative.Trial 19.0.25.211 depends on Telerik.UI.for.Blazor.Trial (>= 7.1.0) but Telerik.UI.for.Blazor.Trial 7.1.0 was not found. Telerik.UI.for.Blazor.Trial 8.1.1 was resolved instead.",
+      "message": "Telerik.ReportViewer.BlazorNative.Trial 19.0.25.211 depends on Telerik.UI.for.Blazor.Trial (>= 7.1.0) but Telerik.UI.for.Blazor.Trial 7.1.0 was not found. An approximate best match of Telerik.UI.for.Blazor.Trial 8.1.1 was resolved.",
       "libraryId": "Telerik.UI.for.Blazor.Trial",
       "targetGraphs": [
         "net8.0",
@@ -8411,7 +8436,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "BlazorViewerAndDesigner.Client depends on Telerik.WebReportDesigner.Blazor.Trial (>= 17.0.23.315) but Telerik.WebReportDesigner.Blazor.Trial 17.0.23.315 was not found. Telerik.WebReportDesigner.Blazor.Trial 19.0.25.211 was resolved instead.",
+      "message": "BlazorViewerAndDesigner.Client depends on Telerik.WebReportDesigner.Blazor.Trial (>= 17.0.23.315) but Telerik.WebReportDesigner.Blazor.Trial 17.0.23.315 was not found. An approximate best match of Telerik.WebReportDesigner.Blazor.Trial 19.0.25.211 was resolved.",
       "libraryId": "Telerik.WebReportDesigner.Blazor.Trial",
       "targetGraphs": [
         "net8.0",

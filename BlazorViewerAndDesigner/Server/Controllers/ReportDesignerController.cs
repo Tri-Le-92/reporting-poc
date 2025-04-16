@@ -11,6 +11,7 @@ namespace BlazorViewerAndDesigner.Server.Controllers
 		public ReportDesignerController(IReportDesignerServiceConfiguration reportDesignerServiceConfiguration, IReportServiceConfiguration reportServiceConfiguration)
 			: base(reportDesignerServiceConfiguration, reportServiceConfiguration)
 		{
+			
 		}
 	}
 }

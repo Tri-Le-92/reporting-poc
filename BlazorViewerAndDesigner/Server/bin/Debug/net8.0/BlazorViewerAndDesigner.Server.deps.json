@@ -10,7 +10,9 @@
         "dependencies": {
           "BlazorViewerAndDesigner.Client": "1.0.0",
           "BlazorViewerAndDesigner.Shared": "1.0.0",
+          "CarObjects": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "8.0.0",
+          "ProductObjects": "1.0.0",
           "Telerik.Reporting.OpenXmlRendering.Trial": "19.0.25.211",
           "Telerik.WebReportDesigner.Services.Trial": "19.0.25.211"
         },
@@ -1078,7 +1080,7 @@
           "Microsoft.IdentityModel.Tokens": "6.35.0"
         },
         "runtime": {
-          "lib/net6.0/System.IdentityModel.Tokens.Jwt.dll": {
+          "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {
             "assemblyVersion": "6.35.0.0",
             "fileVersion": "6.35.0.41201"
           }
@@ -1593,7 +1595,14 @@
         }
       },
       "System.Text.Encodings.Web/4.7.2": {},
-      "System.Text.Json/8.0.5": {},
+      "System.Text.Json/8.0.5": {
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
       "System.Text.RegularExpressions/4.3.1": {
         "dependencies": {
           "System.Runtime": "4.3.1"
@@ -2005,7 +2014,7 @@
         },
         "runtime": {
           "BlazorViewerAndDesigner.Client.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -2013,7 +2022,23 @@
       "BlazorViewerAndDesigner.Shared/1.0.0": {
         "runtime": {
           "BlazorViewerAndDesigner.Shared.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CarObjects/1.0.0": {
+        "runtime": {
+          "CarObjects.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ProductObjects/1.0.0": {
+        "runtime": {
+          "ProductObjects.dll": {
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -3341,6 +3366,16 @@
       "sha512": ""
     },
     "BlazorViewerAndDesigner.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CarObjects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProductObjects/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

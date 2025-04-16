@@ -1774,12 +1774,12 @@
           "Microsoft.IdentityModel.Tokens": "6.35.0"
         },
         "compile": {
-          "lib/net6.0/System.IdentityModel.Tokens.Jwt.dll": {
+          "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/System.IdentityModel.Tokens.Jwt.dll": {
+          "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
           }
         }
@@ -3388,6 +3388,26 @@
         },
         "runtime": {
           "bin/placeholder/BlazorViewerAndDesigner.Shared.dll": {}
+        }
+      },
+      "CarObjects/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CarObjects.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CarObjects.dll": {}
+        }
+      },
+      "ProductObjects/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ProductObjects.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductObjects.dll": {}
         }
       }
     }
@@ -6253,14 +6273,11 @@
         ".signature.p7s",
         "lib/net45/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net45/System.IdentityModel.Tokens.Jwt.xml",
-        "lib/net461/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net461/System.IdentityModel.Tokens.Jwt.xml",
         "lib/net462/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net462/System.IdentityModel.Tokens.Jwt.xml",
         "lib/net472/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net472/System.IdentityModel.Tokens.Jwt.xml",
-        "lib/net6.0/System.IdentityModel.Tokens.Jwt.dll",
-        "lib/net6.0/System.IdentityModel.Tokens.Jwt.xml",
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.xml",
         "system.identitymodel.tokens.jwt.6.35.0.nupkg.sha512",
@@ -9757,49 +9774,71 @@
       "type": "project",
       "path": "../Shared/BlazorViewerAndDesigner.Shared.csproj",
       "msbuildProject": "../Shared/BlazorViewerAndDesigner.Shared.csproj"
+    },
+    "CarObjects/1.0.0": {
+      "type": "project",
+      "path": "../../CarObjects/CarObjects.csproj",
+      "msbuildProject": "../../CarObjects/CarObjects.csproj"
+    },
+    "ProductObjects/1.0.0": {
+      "type": "project",
+      "path": "../../ProductObjects/ProductObjects.csproj",
+      "msbuildProject": "../../ProductObjects/ProductObjects.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "BlazorViewerAndDesigner.Client >= 1.0.0",
       "BlazorViewerAndDesigner.Shared >= 1.0.0",
+      "CarObjects >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 8.0.0",
+      "ProductObjects >= 1.0.0",
       "Telerik.Reporting.OpenXmlRendering.Trial >= 17.0.23.315",
       "Telerik.WebReportDesigner.Services.Trial >= 17.0.23.315"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\LAPTOP LENNOVO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Server\\BlazorViewerAndDesigner.Server.csproj",
+      "projectUniqueName": "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Server\\BlazorViewerAndDesigner.Server.csproj",
       "projectName": "BlazorViewerAndDesigner.Server",
-      "projectPath": "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Server\\BlazorViewerAndDesigner.Server.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Server\\obj\\",
+      "projectPath": "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Server\\BlazorViewerAndDesigner.Server.csproj",
+      "packagesPath": "C:\\Users\\LAPTOP LENNOVO\\.nuget\\packages\\",
+      "outputPath": "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\LAPTOP LENNOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.devexpress.com/api/v3/index.json": {},
-        "https://nuget.telerik.com/v3/index.json": {}
+        "https://nuget.devexpress.com/My6hDaKTIxlESlC864CcuerRwcL4Hqx56eU6sf1ydyl9N4hwxJ/api/v3/index.json": {},
+        "https://nuget.telerik.com/v3/index.json": {},
+        "https://pkgs.dev.azure.com/quantalytix/Core/_packaging/core/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Client\\BlazorViewerAndDesigner.Client.csproj": {
-              "projectPath": "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Client\\BlazorViewerAndDesigner.Client.csproj"
+            "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Client\\BlazorViewerAndDesigner.Client.csproj": {
+              "projectPath": "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Client\\BlazorViewerAndDesigner.Client.csproj"
             },
-            "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj": {
-              "projectPath": "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj"
+            "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj": {
+              "projectPath": "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj"
+            },
+            "C:\\quantalytix\\reporting-poc\\CarObjects\\CarObjects.csproj": {
+              "projectPath": "C:\\quantalytix\\reporting-poc\\CarObjects\\CarObjects.csproj"
+            },
+            "C:\\quantalytix\\reporting-poc\\ProductObjects\\ProductObjects.csproj": {
+              "projectPath": "C:\\quantalytix\\reporting-poc\\ProductObjects\\ProductObjects.csproj"
             }
           }
         }
@@ -9813,8 +9852,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -9852,7 +9890,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -9861,7 +9899,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "BlazorViewerAndDesigner.Server depends on Telerik.Reporting.OpenXmlRendering.Trial (>= 17.0.23.315) but Telerik.Reporting.OpenXmlRendering.Trial 17.0.23.315 was not found. Telerik.Reporting.OpenXmlRendering.Trial 19.0.25.211 was resolved instead.",
+      "message": "BlazorViewerAndDesigner.Server depends on Telerik.Reporting.OpenXmlRendering.Trial (>= 17.0.23.315) but Telerik.Reporting.OpenXmlRendering.Trial 17.0.23.315 was not found. An approximate best match of Telerik.Reporting.OpenXmlRendering.Trial 19.0.25.211 was resolved.",
       "libraryId": "Telerik.Reporting.OpenXmlRendering.Trial",
       "targetGraphs": [
         "net8.0"
@@ -9871,7 +9909,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "BlazorViewerAndDesigner.Client depends on Telerik.ReportViewer.BlazorNative.Trial (>= 17.0.23.315) but Telerik.ReportViewer.BlazorNative.Trial 17.0.23.315 was not found. Telerik.ReportViewer.BlazorNative.Trial 19.0.25.211 was resolved instead.",
+      "message": "BlazorViewerAndDesigner.Client depends on Telerik.ReportViewer.BlazorNative.Trial (>= 17.0.23.315) but Telerik.ReportViewer.BlazorNative.Trial 17.0.23.315 was not found. An approximate best match of Telerik.ReportViewer.BlazorNative.Trial 19.0.25.211 was resolved.",
       "libraryId": "Telerik.ReportViewer.BlazorNative.Trial",
       "targetGraphs": [
         "net8.0"
@@ -9881,7 +9919,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Telerik.ReportViewer.BlazorNative.Trial 19.0.25.211 depends on Telerik.UI.for.Blazor.Trial (>= 7.1.0) but Telerik.UI.for.Blazor.Trial 7.1.0 was not found. Telerik.UI.for.Blazor.Trial 8.1.1 was resolved instead.",
+      "message": "Telerik.ReportViewer.BlazorNative.Trial 19.0.25.211 depends on Telerik.UI.for.Blazor.Trial (>= 7.1.0) but Telerik.UI.for.Blazor.Trial 7.1.0 was not found. An approximate best match of Telerik.UI.for.Blazor.Trial 8.1.1 was resolved.",
       "libraryId": "Telerik.UI.for.Blazor.Trial",
       "targetGraphs": [
         "net8.0"
@@ -9891,7 +9929,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "BlazorViewerAndDesigner.Client depends on Telerik.WebReportDesigner.Blazor.Trial (>= 17.0.23.315) but Telerik.WebReportDesigner.Blazor.Trial 17.0.23.315 was not found. Telerik.WebReportDesigner.Blazor.Trial 19.0.25.211 was resolved instead.",
+      "message": "BlazorViewerAndDesigner.Client depends on Telerik.WebReportDesigner.Blazor.Trial (>= 17.0.23.315) but Telerik.WebReportDesigner.Blazor.Trial 17.0.23.315 was not found. An approximate best match of Telerik.WebReportDesigner.Blazor.Trial 19.0.25.211 was resolved.",
       "libraryId": "Telerik.WebReportDesigner.Blazor.Trial",
       "targetGraphs": [
         "net8.0"
@@ -9901,7 +9939,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "BlazorViewerAndDesigner.Server depends on Telerik.WebReportDesigner.Services.Trial (>= 17.0.23.315) but Telerik.WebReportDesigner.Services.Trial 17.0.23.315 was not found. Telerik.WebReportDesigner.Services.Trial 19.0.25.211 was resolved instead.",
+      "message": "BlazorViewerAndDesigner.Server depends on Telerik.WebReportDesigner.Services.Trial (>= 17.0.23.315) but Telerik.WebReportDesigner.Services.Trial 17.0.23.315 was not found. An approximate best match of Telerik.WebReportDesigner.Services.Trial 19.0.25.211 was resolved.",
       "libraryId": "Telerik.WebReportDesigner.Services.Trial",
       "targetGraphs": [
         "net8.0"

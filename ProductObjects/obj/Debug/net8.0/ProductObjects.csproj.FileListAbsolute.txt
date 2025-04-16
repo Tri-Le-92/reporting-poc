@@ -1,0 +1,12 @@
+C:\quantalytix\reporting-poc\ProductObjects\bin\Debug\net8.0\ProductObjects.deps.json
+C:\quantalytix\reporting-poc\ProductObjects\bin\Debug\net8.0\ProductObjects.dll
+C:\quantalytix\reporting-poc\ProductObjects\bin\Debug\net8.0\ProductObjects.pdb
+C:\quantalytix\reporting-poc\ProductObjects\obj\Debug\net8.0\ProductObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\quantalytix\reporting-poc\ProductObjects\obj\Debug\net8.0\ProductObjects.AssemblyInfoInputs.cache
+C:\quantalytix\reporting-poc\ProductObjects\obj\Debug\net8.0\ProductObjects.AssemblyInfo.cs
+C:\quantalytix\reporting-poc\ProductObjects\obj\Debug\net8.0\ProductObjects.csproj.CoreCompileInputs.cache
+C:\quantalytix\reporting-poc\ProductObjects\obj\Debug\net8.0\ProductObjects.sourcelink.json
+C:\quantalytix\reporting-poc\ProductObjects\obj\Debug\net8.0\ProductObjects.dll
+C:\quantalytix\reporting-poc\ProductObjects\obj\Debug\net8.0\refint\ProductObjects.dll
+C:\quantalytix\reporting-poc\ProductObjects\obj\Debug\net8.0\ProductObjects.pdb
+C:\quantalytix\reporting-poc\ProductObjects\obj\Debug\net8.0\ref\ProductObjects.dll

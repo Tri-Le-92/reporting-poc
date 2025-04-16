@@ -1,35 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Client\\BlazorViewerAndDesigner.Client.csproj": {}
+    "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Client\\BlazorViewerAndDesigner.Client.csproj": {}
   },
   "projects": {
-    "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Client\\BlazorViewerAndDesigner.Client.csproj": {
+    "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Client\\BlazorViewerAndDesigner.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Client\\BlazorViewerAndDesigner.Client.csproj",
+        "projectUniqueName": "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Client\\BlazorViewerAndDesigner.Client.csproj",
         "projectName": "BlazorViewerAndDesigner.Client",
-        "projectPath": "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Client\\BlazorViewerAndDesigner.Client.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Client\\obj\\",
+        "projectPath": "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Client\\BlazorViewerAndDesigner.Client.csproj",
+        "packagesPath": "C:\\Users\\LAPTOP LENNOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\LAPTOP LENNOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/api/v3/index.json": {},
-          "https://nuget.telerik.com/v3/index.json": {}
+          "https://nuget.devexpress.com/My6hDaKTIxlESlC864CcuerRwcL4Hqx56eU6sf1ydyl9N4hwxJ/api/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {},
+          "https://pkgs.dev.azure.com/quantalytix/Core/_packaging/core/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj": {
-                "projectPath": "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj"
+              "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj": {
+                "projectPath": "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj"
               }
             }
           }
@@ -43,8 +47,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -62,13 +65,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.15, )",
+              "version": "[8.0.8, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.4, )",
+              "version": "[8.0.8, )",
               "autoReferenced": true
             },
             "Telerik.ReportViewer.BlazorNative.Trial": {
@@ -91,18 +94,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.15, 8.0.15]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -111,25 +108,29 @@
         }
       }
     },
-    "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj": {
+    "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj",
+        "projectUniqueName": "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj",
         "projectName": "BlazorViewerAndDesigner.Shared",
-        "projectPath": "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Shared\\obj\\",
+        "projectPath": "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj",
+        "packagesPath": "C:\\Users\\LAPTOP LENNOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\LAPTOP LENNOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/api/v3/index.json": {},
-          "https://nuget.telerik.com/v3/index.json": {}
+          "https://nuget.devexpress.com/My6hDaKTIxlESlC864CcuerRwcL4Hqx56eU6sf1ydyl9N4hwxJ/api/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {},
+          "https://pkgs.dev.azure.com/quantalytix/Core/_packaging/core/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -146,8 +147,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -168,7 +168,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

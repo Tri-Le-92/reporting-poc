@@ -8,27 +8,31 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\LAPTOP LENNOVO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj",
+      "projectUniqueName": "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj",
       "projectName": "BlazorViewerAndDesigner.Shared",
-      "projectPath": "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\works\\reporting-samples\\BlazorViewerAndDesignerExample\\BlazorViewerAndDesigner\\Shared\\obj\\",
+      "projectPath": "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Shared\\BlazorViewerAndDesigner.Shared.csproj",
+      "packagesPath": "C:\\Users\\LAPTOP LENNOVO\\.nuget\\packages\\",
+      "outputPath": "C:\\quantalytix\\reporting-poc\\BlazorViewerAndDesigner\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\LAPTOP LENNOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.devexpress.com/api/v3/index.json": {},
-        "https://nuget.telerik.com/v3/index.json": {}
+        "https://nuget.devexpress.com/My6hDaKTIxlESlC864CcuerRwcL4Hqx56eU6sf1ydyl9N4hwxJ/api/v3/index.json": {},
+        "https://nuget.telerik.com/v3/index.json": {},
+        "https://pkgs.dev.azure.com/quantalytix/Core/_packaging/core/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -45,8 +49,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -67,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
